@@ -4,7 +4,7 @@ import glob
 
 def delete_files_recursively(root_folder, filepattern):
     """
-    Example of finding all the files with this name/pattern that live on the root folder
+    Example of recursively finding all the files with this name/pattern that live on the root folder
     and deleting them.
     :param root_folder: The path of the folder to search in
     """
